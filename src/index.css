@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;700&display=swap');
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+  --primary-font: -apple-system, BlinkMacSystemFont, "SF Compact", "Helvetica Neue", Arial, sans-serif;
+  --secondary-font: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #111;
+}
+
+.header {
+  height: 950px;
+  background-image: linear-gradient(#0037, #111), url('https://s3-alpha-sig.figma.com/img/5909/0ea8/b488be9c50166f91c91c010eec13fd2e?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=StU9gLKeReZqAL3556HA2AB8dqzH0eLyFsuDEPuP1hIoXDNG4cWwi-xx-MvC-ORjWJ-F8UiQoxmC~lB87U9Dn~82ZWHs6qqrYVl~C5plNd7qkN5dljngvLXWmsBWjzmcSFFDEd-7mEBsRAW6H0~UR0Q4kXF2OnE9eqTZhuDLWB5Oin0Of7Izji4b6nWHuejMi4tMJ5Ks0jOu8RQaOgiVnnaC5qve3d8ROF7kWzRLGyb1ajkhLw4cy9ZXLMEhj-aY6aSr-yhAmY8hDc0R2Gg3Z1pGiTC3ajhwEk06lglNxTQoSPEdRs7X8l29lGHn-m9OeFEeO13Vm6ufTszdmtOaGQ__');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.movie-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  color: #fff;
+
+  img {
+    width: 357px;
+    height: 137.53px;
+  }
+}
+
+.initial {
+  display: flex;
+  justify-content: space-between;
+  font-family:  var(--primary-font);
+  align-items: center;
+  gap: 15px;
+  font-weight: 457;
+  font-size: 20px;
+  line-height: 23.87px;
+  padding-bottom: 20px;
+}
+
+.frame {
+  border: 1px solid #ffffff80;
+  padding: 6px 12px;
+  border-radius: 36px;
+  backdrop-filter: blur(40px)
+}
+
+.description {
+  font-family: 'Inter', sans-serif;
+  color: #ffffffcc;
+  line-height: 19.36px;
+  text-align: center;
+  width: 436px;
+  padding-bottom: 20px;
+}
+
+.hero-btn {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  width: 433px;
+  display: flex;
+  justify-content: space-between;
+
+  button {
+    display: flex;
+    height: 54px;
+    width: 206px;
+    align-items: center;
+    border-radius: 40px;
+    line-height: 24.2px;
+    gap: 10px;
+    justify-content: center;
+  }
+}
+
+.btn-right {
+  backdrop-filter: blur(4px);
+  background: #FFFFFF1A;
+  border: 1px solid #FFFFFF33;
+}
+
+.btn-left {
+  border: 1px solid #FFFFFF33;
+  background: #FFFFFFE5;
+  backdrop-filter: blur(40px);
+  color: #000;
+}
